@@ -1,0 +1,5 @@
+ Rice_Bacterial_blight
+ Rice_Blast
+ Rice_Brown_spot
+ Rice_Healthy
+ Rice_Tungro
