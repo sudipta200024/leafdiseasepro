@@ -10,6 +10,11 @@ android {
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
+    dependencies {
+        implementation("org.tensorflow:tensorflow-lite:2.9.0")
+        implementation("org.tensorflow:tensorflow-lite-gpu:2.9.0") // Add only if GPU acceleration is needed
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -34,6 +39,8 @@ android {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
+            isMinifyEnabled = false  // Disable R8 code shrinking
+            isShrinkResources = false
             signingConfig = signingConfigs.getByName("debug")
         }
     }
