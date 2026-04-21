@@ -3,12 +3,15 @@
 A Flutter mobile application that detects **rice leaf diseases** using on-device Machine Learning powered by TensorFlow Lite.
 
 ---
+## 📸 Screenshots
 
-## 📱 Demo
+| Home | Camera | Gallery |
+|------|--------|---------|
+| ![Home](screenshots/home.jpeg) | ![Camera](screenshots/camera_image.jpeg) | ![Gallery](screenshots/gallery.jpeg) |
 
-> 🎥 [Watch Demo on LinkedIn](#) ← _replace with your LinkedIn video URL_
-
----
+| Test 1 | Test 2 |
+|--------|--------|
+| ![Test 1](screenshots/test1.jpeg) | ![Test 2](screenshots/test2.jpeg) |
 
 ## 🌿 Features
 
